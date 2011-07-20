@@ -2,7 +2,7 @@ local mod = CreateFrame("frame", select(2, ...), UIParent)
 mod:SetScript("OnEvent", function(self, event, ...) return self[event](self, ...) end)
 mod:RegisterEvent("ADDON_LOADED")
 
-local lastError
+local lastError = "No errors yet!"
 local filter = {
   [ERR_INV_FULL] = true,
   [ERR_SPELL_FAILED_ALREADY_AT_FULL_MANA] = true,
