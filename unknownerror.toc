@@ -1,0 +1,7 @@
+## Interface: 40200
+## Title: unknownerror
+## Notes: selectively hides errors. adapted from a tukui module.
+## Author: burial
+## Version: 1
+
+main.lua
