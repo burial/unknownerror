@@ -30,6 +30,6 @@ end
 
 SLASH_UE1 = "/ue"
 SLASH_UE2 = "/error"
-function SlashCmdList.UNKNOWNERROR()
+function SlashCmdList.UE()
   UIErrorsFrame:AddMessage(lastError, 1, 0, 0)
 end
