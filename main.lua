@@ -1,4 +1,4 @@
-local mod = CreateFrame("frame", select(2, ...), UIParent)
+local mod = CreateFrame("frame", select(1, ...), UIParent)
 mod:SetScript("OnEvent", function(self, event, ...) return self[event](self, ...) end)
 mod:RegisterEvent("ADDON_LOADED")
 
